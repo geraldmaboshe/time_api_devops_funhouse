@@ -1,0 +1,16 @@
+node_modules/
+npm-debug.log
+
+.env
+
+logs/
+*.log
+npm-debug.log*
+
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform/
+
+.vscode/
+run.txt

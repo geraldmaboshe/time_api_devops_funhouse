@@ -1,0 +1,7 @@
+node_modules
+npm-debug.log
+.git
+.vscode
+terraform.tfstate
+terraform.tfstate.backup
+.terraform

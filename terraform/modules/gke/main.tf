@@ -22,7 +22,7 @@ resource "google_container_node_pool" "primary_nodes" {
   # Configure autoscaling for the node pool
   autoscaling {
     min_node_count = 1
-    max_node_count = terraform.workspace == "prod" ? 10 : 3
+    max_node_count = terraform.workspace == "prod" ? 10 : 1
   }
 
   # Configure the nodes in the pool

@@ -60,3 +60,5 @@ To run the project locally:
 2. Install dependencies: `npm install`
 3. Start the server: `npm run nodemon`
 
+### Happy Shipping!
+
